@@ -1,0 +1,6 @@
+let uname=prompt("请输入你的姓名:")
+console.log("用户的姓名:"+uname)
+let uage=prompt("请输入你的年龄:")
+console.log("用户的年龄:"+uage)
+let usex=prompt("请输入你的性别:")
+console.log("用户的性别:"+usex)
