@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    let fuhao=prompt('请您选择 + - * / ，如果输入q，则是退出结束程序')
+    if (fuhao==='q')
+        alert('退出')
+    else {
+        let a = prompt('请您输入第一个数字')
+        let b = prompt('请您输入第二个数字')
+        if (fuhao === '+')
+            alert(Number(a) + Number(b))
+        if (fuhao === '-')
+            alert(a - b)
+        if (fuhao === '*')
+            alert(a * b)
+        if (fuhao === '/')
+            alert(a / b)
+    }
+</script>
+</body>
+</html>
